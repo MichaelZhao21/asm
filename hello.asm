@@ -12,6 +12,6 @@ _start:
 	mov	rdx, [len]		; msg length
 	syscall
 
-	mov rax, 0x3c		; exit op = 60
+	mov 	rax, 0x3c		; exit op = 60
 	mov	rdi, 0			; 0 status code
 	syscall
