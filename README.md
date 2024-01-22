@@ -18,6 +18,8 @@
 
 Run `nasm -felf64 <filename>.asm && ld <filename>.o`
 
+To debug, add `-gdwarf` to `nasm`
+
 ## Projects
 
 1. [Hello world](hello.asm) - Simple hello world program

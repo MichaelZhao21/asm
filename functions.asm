@@ -25,6 +25,21 @@ sprint:
 
 	ret
 	
+; ========== sprintln(char* rax) -> void ==========
+sprintln:
+	call	sprint
+
+	push	rax		; save rax
+	mov	rax, 0xA	; newline char
+	push	rax		; push to stack
+
+	mov	rax, rsp	; rax = addr of rsp
+	call	sprint
+	pop 	rax		; Restore stack
+	pop	rax
+
+	ret
+	
 ; ========== exit() -> void ==========
 exit:
 	mov	rax, 0x3c	; rax = 60 (exit)
