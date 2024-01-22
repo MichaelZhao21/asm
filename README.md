@@ -16,13 +16,13 @@
 
 ## Compilation/Execution
 
-Run `nasm -elf64 <filename>.asm && ld <filename>.o`
+Run `nasm -felf64 <filename>.asm && ld <filename>.o`
 
 ## Projects
 
 1. [Hello world](hello.asm) - Simple hello world program
 2. [Hello world with strlen](hellolen.asm) - Hello world with automatically calculated string length (can print anything!)
-3. [strlen subroutine](strlen.asm) - Subroutine with strlen called
+3. [strlen subroutine](strlen.asm) - Subroutine that runs strlen
 
 ### Misc
 
