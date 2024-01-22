@@ -26,6 +26,7 @@ To debug, add `-gdwarf` to `nasm`
 2. [Hello world with strlen](hellolen.asm) - Hello world with automatically calculated string length (can print anything!)
 3. [strlen subroutine](strlen.asm) - Subroutine that runs strlen
 4. [Functions](functions.asm) and the [runner file](functionsrunner.asm) - Useful functions to call, `functionsrunner.asm` is just used to test the functions to make sure they work
+5. [Arguments](args.asm) - Read arguments and print them
 
 ### Misc
 
