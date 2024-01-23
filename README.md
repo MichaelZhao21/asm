@@ -27,6 +27,7 @@ To debug, add `-gdwarf` to `nasm`
 3. [strlen subroutine](strlen.asm) - Subroutine that runs strlen
 4. [Functions](functions.asm) and the [runner file](functionsrunner.asm) - Useful functions to call, `functionsrunner.asm` is just used to test the functions to make sure they work
 5. [Arguments](args.asm) - Read arguments and print them
+6. [User Input](input.asm) - Simple program to read and print out a user's name
 
 ### Misc
 
